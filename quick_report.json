@@ -1,0 +1,19 @@
+{
+  "best_model": {
+    "name": "Linear",
+    "degree": 1,
+    "best_params": {},
+    "test_scores": {
+      "R2": 0.7342701339816924,
+      "MSE": 226951.99708147757,
+      "RMSE": 476.3947911989357,
+      "MAE": 164.87243428845153,
+      "MAPE(%)": 5.140877458334268
+    }
+  },
+  "artifacts": {
+    "best_model": "models/best_model.joblib",
+    "poly_scaler_pipeline": "models/poly_scaler_pipeline.joblib",
+    "figures_dir": "figures"
+  }
+}
